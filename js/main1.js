@@ -137,7 +137,7 @@ function renderChannel(channels){
 getChannel()
 function getChannel(){
   $.ajax({
-    url: 'http://api.jirengu.com/fm/getChannels.php',
+    url: 'https://jirenguapi.applinzi.com/fm/getChannels.php',
     dataType: 'jsonp',
     Method: 'get',
     success: function(response){
